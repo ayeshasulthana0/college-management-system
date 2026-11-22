@@ -1,16 +1,52 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# College Management System
 
-Currently, two official plugins are available:
+## Project Description
+College Management System is a backend application developed using Java and Spring Boot. It manages students, faculty, courses and attendance through REST APIs.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Technologies Used
+- Java
+- Spring Boot
+- Spring Data JPA
+- MySQL
+- REST API
+- Postman
+- Maven
 
-## React Compiler
+## Modules
+- Student Management
+- Faculty Management
+- Course Management
+- Attendance Management
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## API Endpoints
 
-## Expanding the ESLint configuration
+### Students
+- GET /api/students
+- POST /api/students
+- PUT /api/students/{id}
+- DELETE /api/students/{id}
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Faculty
+- GET /api/faculty
+- POST /api/faculty
+- PUT /api/faculty/{id}
+- DELETE /api/faculty/{id}
+
+### Courses
+- GET /api/courses
+- POST /api/courses
+- PUT /api/courses/{id}
+- DELETE /api/courses/{id}
+
+### Attendance
+- GET /api/attendance
+- POST /api/attendance
+- PUT /api/attendance/{id}
+- DELETE /api/attendance/{id}
+
+## Database
+MySQL database: college_management
+
+## Testing
+All REST API endpoints are tested using Postman.
