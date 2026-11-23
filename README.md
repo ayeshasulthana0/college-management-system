@@ -1,16 +1,42 @@
-# React + Vite
+# College Management System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A full-stack web application developed using React.js, Spring Boot, and MySQL to manage college activities.
 
-Currently, two official plugins are available:
+## Technologies Used
+- Frontend: React.js, JavaScript, CSS, Vite
+- Backend: Java, Spring Boot, REST API
+- Database: MySQL
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Modules
+- Dashboard
+- Student Management
+- Faculty Management
+- Course Management
+- Attendance Management
 
-## React Compiler
+## Features
+- Add, update, delete, and view students
+- Faculty management
+- Course management
+- Attendance tracking (Present/Absent)
+- Attendance percentage calculation
+- Dashboard summary and attendance visualization
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Project Structure
+- Frontend – React application
+- Backend – Spring Boot REST APIs
+- Project Output – API testing screenshots
 
-## Expanding the ESLint configuration
+## How to Run
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Frontend
+```bash
+npm install
+npm run dev
+```
+
+### Backend
+Run the Spring Boot application using STS and configure MySQL credentials in `application.properties`.
+
+## Purpose
+To simplify college administration by managing students, faculty, courses, and attendance in one centralized system.
