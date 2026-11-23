@@ -1,42 +1,52 @@
+
 # College Management System
 
-A full-stack web application developed using React, Spring Boot, and MySQL to manage college activities efficiently.
-
-## Features
-- Dashboard with summary cards
-- Student management (Add, Edit, Delete, View)
-- Faculty management
-- Course management
-- Attendance management
-- Present and absent attendance tracking
-- Attendance percentage calculation
-- Attendance pie chart visualization
+## Project Description
+College Management System is a backend application developed using Java and Spring Boot. It manages students, faculty, courses and attendance through REST APIs.
 
 ## Technologies Used
-- Frontend: React.js, Vite, CSS
-- Backend: Java, Spring Boot, REST API
-- Database: MySQL
-- Tools: VS Code, Spring Tool Suite (STS), Git, GitHub
+- Java
+- Spring Boot
+- Spring Data JPA
+- MySQL
+- REST API
+- Postman
+- Maven
 
-## Project Modules
-- Dashboard
-- Students
-- Faculty
-- Courses
-- Attendance
+## Modules
+- Student Management
+- Faculty Management
+- Course Management
+- Attendance Management
 
-## How to Run
+## API Endpoints
 
-### Frontend
-```bash
-npm install
-npm run dev
-```
+### Students
+- GET /api/students
+- POST /api/students
+- PUT /api/students/{id}
+- DELETE /api/students/{id}
 
-### Backend
-Run the Spring Boot application through STS.
+### Faculty
+- GET /api/faculty
+- POST /api/faculty
+- PUT /api/faculty/{id}
+- DELETE /api/faculty/{id}
 
-Configure your local MySQL database and database credentials in `application.properties`.
+### Courses
+- GET /api/courses
+- POST /api/courses
+- PUT /api/courses/{id}
+- DELETE /api/courses/{id}
 
-## Project Purpose
-To simplify college administration by managing student, faculty, course, and attendance information through a centralized web application.
+### Attendance
+- GET /api/attendance
+- POST /api/attendance
+- PUT /api/attendance/{id}
+- DELETE /api/attendance/{id}
+
+## Database
+MySQL database: college_management
+
+## Testing
+All REST API endpoints are tested using Postman.
