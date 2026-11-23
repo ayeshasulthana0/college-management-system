@@ -1,0 +1,15 @@
+# College Management System - Backend
+
+Backend developed using Java and Spring Boot.
+
+## Technologies
+- Java
+- Spring Boot
+- MySQL
+- REST API
+
+## Features
+- Student API
+- Faculty API
+- Course API
+- Attendance API
