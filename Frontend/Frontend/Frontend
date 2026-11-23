@@ -1,0 +1,16 @@
+# College Management System - Frontend
+
+Frontend developed using React.js and Vite.
+
+## Technologies
+- React.js
+- JavaScript
+- CSS
+- Vite
+
+## Features
+- Dashboard
+- Student Management
+- Faculty Management
+- Course Management
+- Attendance Management
